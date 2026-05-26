@@ -36,3 +36,10 @@ out/
 ### VS Code ###
 .vscode/
 .claude/
+
+# Docker environment variables
+.env
+
+# Antigravity CLI cache and logs
+.antigravitycli
+
