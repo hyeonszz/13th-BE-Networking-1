@@ -20,7 +20,7 @@ services:
       start_period: 10s
 
   app:
-    build: .
+    image: ${DOCKER_USERNAME}/networking-app:latest
     container_name: networking_app
     restart: always
     ports:
